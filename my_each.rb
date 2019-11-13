@@ -5,5 +5,6 @@ def my_each(word)
     yield(word[1])
   i += 1
   end
-end
+  end
+  word
 end
